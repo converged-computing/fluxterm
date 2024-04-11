@@ -45,7 +45,6 @@ It is currently bare bones, and development of this project will happen per user
 
 ## TODO
 
-- Add emoji status to the jobs table
 - Job table interactivity
 
 ## License
