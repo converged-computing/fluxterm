@@ -2,7 +2,7 @@ __author__ = "Vanessa Sochat"
 __copyright__ = "Copyright 2024, Vanessa Sochat, HPCIC Developer Tools"
 __license__ = "MIT"
 
-__version__ = "0.0.0"
+__version__ = "0.0.1"
 AUTHOR = "Vanessa Sochat"
 AUTHOR_EMAIL = "vsoch@users.noreply.github.com"
 NAME = "fluxterm"

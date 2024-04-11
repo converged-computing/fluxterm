@@ -1,6 +1,7 @@
 from textual.app import ComposeResult
 from textual.screen import Screen
 from textual.widgets import DataTable, Footer, Header, Static
+import fluxterm.defaults as defaults
 
 try:
     import flux
@@ -57,10 +58,7 @@ class FluxJobs(Static):
         ]
         for job in listing.get_jobinfos():
             j = job.to_dict()
-            try:
-                state = job.status_emoji
-            except Exception:
-                state = j["state"]
+            state = defaults.JOB_STATES.get(j["state"].lower()) or j["state"]
             ROWS.append(
                 (
                     j["id"],
