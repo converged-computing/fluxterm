@@ -16,7 +16,7 @@ Coming soon:
 
 The application enters with a code browser for the present working directory.
 
-![docs/img/cheat-sheet-light.png](docs/img/cheat-sheet-light.png)
+![docs/img/cheat-sheet.png](docs/img/cheat-sheet.png)
 
 The cheat sheets isn't the complete Flux documentation, but offers a quick, command line reference.
 
@@ -32,6 +32,9 @@ for example, clicking a flux job to get more metadata or output.
 ![docs/img/jobs-table.png](docs/img/jobs-table.png)
 
 Finally, if you ask for help? You get to talk with the "pink bird who knows things" Flux Bird.
+
+![docs/img/flux-bird.png](docs/img/flux-bird.png)
+
 
 If you'd like a feature added, please [let us know](https://github.com/flux-framework/fluxterm)! 
 It is currently bare bones, and development of this project will happen per user request.
