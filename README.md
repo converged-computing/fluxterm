@@ -7,24 +7,27 @@ Flux... from a terminal! This is a small terminal application that will provide 
 - A simple code browser
 - A flux jobs interface to see (and possibly TBA interact) with jobs
 - A flux cheat sheet for quick reference
+- Fortune and wisdom from flux bird, the pink bird who knows things.
 
 Coming soon:
 
-- Fortune and wisdom from flux bird, the pink bird who knows things.
+- Interactive jobs table
+- pip installable module and more fun!
 
 ## Screenshots
 
 The application enters with a code browser for the present working directory.
-
-![docs/img/cheat-sheet.png](docs/img/cheat-sheet.png)
-
-The cheat sheets isn't the complete Flux documentation, but offers a quick, command line reference.
-
-![docs/img/cheat-sheet.png](docs/img/cheat-sheet-light.png)
-
 The code browser is handy for navigating around your current directory of files.
 
 ![docs/img/code-browser.png](docs/img/code-browser.png)
+
+The cheat sheets isn't the complete Flux documentation, but offers a quick, command line reference.
+
+![docs/img/cheat-sheet.png](docs/img/cheat-sheet.png)
+
+Every view also has a light mode (we default to dark).
+
+![docs/img/cheat-sheet.png](docs/img/cheat-sheet-light.png)
 
 The jobs table provides a quick interface to view flux jobs. We plan to add more interactivity to this,
 for example, clicking a flux job to get more metadata or output.
