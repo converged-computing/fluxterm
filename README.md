@@ -1,5 +1,7 @@
 # Fluxterm
 
+[![PyPI version](https://badge.fury.io/py/fluxterm.svg)](https://badge.fury.io/py/fluxterm)
+
 > 🦩️ I find this highly ridulous. And highly excellent.
 
 Flux... from a terminal! This is a small terminal application that will provide a handle to interact with Flux, but also other useful UI interactions that are nice to have. We currently have:
