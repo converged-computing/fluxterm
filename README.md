@@ -12,39 +12,37 @@ Flux... from a terminal! This is a small terminal application that will provide 
 Coming soon:
 
 - Interactive jobs table
-- pip installable module and more fun!
 
 ## Screenshots
 
 The application enters with a code browser for the present working directory.
 The code browser is handy for navigating around your current directory of files.
 
-![docs/img/code-browser.png](docs/img/code-browser.png)
+![https://github.com/converged-computing/fluxterm/blob/main/docs/img/code-browser.png?raw=true](https://github.com/converged-computing/fluxterm/blob/main/docs/img/code-browser.png?raw=true)
 
 The cheat sheets isn't the complete Flux documentation, but offers a quick, command line reference.
 
-![docs/img/cheat-sheet.png](docs/img/cheat-sheet.png)
+![https://github.com/converged-computing/fluxterm/blob/main/docs/img/cheat-sheet.png?raw=true](https://github.com/converged-computing/fluxterm/blob/main/docs/img/cheat-sheet.png?raw=true)
 
 Every view also has a light mode (we default to dark).
 
-![docs/img/cheat-sheet.png](docs/img/cheat-sheet-light.png)
+![https://github.com/converged-computing/fluxterm/blob/main/docs/img/cheat-sheet-light.png?raw=true](https://github.com/converged-computing/fluxterm/blob/main/docs/img/cheat-sheet-light.png?raw=true)
 
 The jobs table provides a quick interface to view flux jobs. We plan to add more interactivity to this,
 for example, clicking a flux job to get more metadata or output.
 
-![docs/img/jobs-table.png](docs/img/jobs-table.png)
+![https://github.com/converged-computing/fluxterm/blob/main/docs/img/jobs-table.png?raw=true](https://github.com/converged-computing/fluxterm/blob/main/docs/img/jobs-table.png?raw=true)
 
 Finally, if you ask for help? You get to talk with the "pink bird who knows things" Flux Bird.
 
-![docs/img/flux-bird.png](docs/img/flux-bird.png)
+![https://github.com/converged-computing/fluxterm/blob/main/docs/img/flux-bird.png?raw=true](https://github.com/converged-computing/fluxterm/blob/main/docs/img/flux-bird.png?raw=true)
 
 
-If you'd like a feature added, please [let us know](https://github.com/flux-framework/fluxterm)! 
+If you'd like a feature added, please [let us know](https://github.com/converged-computing/fluxterm)!
 It is currently bare bones, and development of this project will happen per user request.
 
 ## TODO
 
-- Turn into a pip-installable module proper
 - Add emoji status to the jobs table
 - Job table interactivity
 

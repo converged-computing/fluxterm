@@ -18,7 +18,7 @@ commands:
         items:
           - title: Use flux carbon copy to submit identical jobs with different inputs
             command: flux submit --cc="1-10" echo "Hello I am job {cc}"
-          - title: Submits scripts myscript1.sh through myscript10.sh  
+          - title: Submits scripts myscript1.sh through myscript10.sh
             command: flux submit --cc=1-10 myscript{cc}.sh
           - title: Bypass the key value store and write output to file with jobid
             command: flux submit --output=job-{{id}}.out ./my_super_cool_job.py
@@ -38,7 +38,7 @@ commands:
             command: flux run bash -c "echo start; sleep 5; echo done"
           - title: Run an MPI task with options for MPI
             command: flux run -N 1 -n 4 -c 10 -g 1 -o mpi=spectrum -o cpu-affinity=per-task -o gpu-affinity=per-task my_mpi_binary
-          - title: Remove the entire environment except for PATH 
+          - title: Remove the entire environment except for PATH
             command: flux run --env-remove=* --env=PATH ./top-secret.sh
 
 
@@ -48,8 +48,8 @@ commands:
         items:
           - title: See all my flux jobs
             command: flux jobs -a
-          - title: Get a return code for a specific job 
-            command: flux jobs --no-header -o '{returncode}' ƒj4CgebBV           
+          - title: Get a return code for a specific job
+            command: flux jobs --no-header -o '{returncode}' ƒj4CgebBV
           - title: Add another field, status
             command: flux jobs --no-header -o '{status}:{returncode}' ƒj4CgebBV
           - title: Show me the job ids in a particular state
@@ -86,7 +86,7 @@ commands:
         items:
           - title: Get the active FLUX_URI (socket)
             command: echo $FLUX_URI
-          
+
   - name: flux resources
     groups:
       - name: Inspect the resources available to you
@@ -164,7 +164,7 @@ commands:
       - name: Simple Examples
         items:
           - title: Compress every file under ./mydir in parallel, one process per core
-            command: find ./mydir | flux bulksubmit --wait xz {} 
+            command: find ./mydir | flux bulksubmit --wait xz {}
           - title: Do a dry run and provide multiple inputs
             command: "flux bulksubmit --dry-run /bin/bash -c 'mkdir -p ./mydir/{0}/{1}; echo created mydir/{0}/{1}' ::: a b c d ::: {1..4}"
           - title: Use carbon copy to submit identical jobs with different inputs
@@ -188,7 +188,7 @@ commands:
               flux queue stop
               flux queue idle
               flux dump ./archive.tar.gz
-            
+
       - name: Moving Files
         items:
           - title: Example batch script to use filemap to stage and clean up a file
@@ -201,4 +201,3 @@ commands:
               # This is important to have so we wait for jobs to finish!
               flux queue idle
               flux filemap unmap
-            

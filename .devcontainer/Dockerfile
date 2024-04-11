@@ -22,7 +22,7 @@ RUN apt-get update \
     less \
     python3-pip \
     sudo \
-    vim 
+    vim
 
 # Add the group and user that match our ids
 RUN groupadd -g ${USER_GID} ${USERNAME} && \
